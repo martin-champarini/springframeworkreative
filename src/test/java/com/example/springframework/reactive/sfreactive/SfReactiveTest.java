@@ -15,9 +15,9 @@ import static org.junit.Assert.*;
 
 @Slf4j
 public class SfReactiveTest {
-    Person michael = new Person("Michael","Watzon");
-    Person fiona = new Person("Fiona","Porter");
-    Person petr = new Person("Petr", "Cech");
+    Person michael = new Person(1L,"Michael","Watzon");
+    Person fiona = new Person(2L,"Fiona","Porter");
+    Person petr = new Person(3L,"Petr", "Cech");
     
     @Before
     public void setUp() throws Exception {
